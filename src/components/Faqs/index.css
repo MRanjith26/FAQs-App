@@ -1,0 +1,46 @@
+/* Write your code here. */
+.bg-container {
+  min-height: 100vh;
+  background-color: #f1f5f8;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faqs-card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1014px;
+  box-shadow: 0px 3px 4px 0px;
+  border-radius: 6px;
+}
+.container-heading {
+  font-family: 'Roboto';
+  font-size: 45px;
+  color: #cb8805;
+  padding-top: 20px;
+}
+.card-container {
+  list-style: none;
+  padding: 0px;
+}
+@media screen and (max-width: 576px), (min-width: 576px), (min-width: 768px) {
+  .faqs-card-container {
+    margin: 10px;
+  }
+  .card-container {
+    margin: 25px;
+  }
+}
+@media screen and (main-width: 992px), (min-width: 1200px) {
+  .faqs-card-container {
+    margin: 20px;
+  }
+  .card-container {
+    margin: 35px;
+  }
+}
